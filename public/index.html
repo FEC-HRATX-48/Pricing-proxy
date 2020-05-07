@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="/style.css" rel="stylesheet">
+    <title>PROXY BOILER</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <div id="root2"></div>
+    <div id="root3"></div>
+    <div id="root4"></div>
+    <script src="/lib/react.development.js"></script>
+    <script src="/lib/react-dom.development.js"></script>
+    <script src="http://localhost:9001/app.js"></script>
+    <script src="http://localhost:9002/app.js"></script>
+    <script src="http://localhost:9003/app.js"></script>
+    <script src="http://localhost:9004/app.js"></script>
+    <script>
+      ReactDom.render(
+        React.createElement(root),
+        document.getElementById('root')
+      );
+      ReactDom.render(
+        React.createElement(root2),
+        document.getElementById('root2')
+      );
+      ReactDom.render(
+        React.createElement(root3),
+        document.getElementById('root3')
+      );
+      ReactDom.render(
+        React.createElement(root4),
+        document.getElementById('root4')
+      );
+    </script>
+  </body>
+</html>
