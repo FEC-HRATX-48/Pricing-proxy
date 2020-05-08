@@ -4,28 +4,22 @@
 
 ## Related Projects
 
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
+  - https://github.com/FEC-HRATX-48/Pricing-Component.git
+  - https://github.com/FEC-HRATX-48/review-component.git
+  - https://github.com/FEC-HRATX-48/Navbar-finally.git
+  - https://github.com/FEC-HRATX-48/product-display.git
 
 ## Table of Contents
 
 1. [Usage](#Usage)
-1. [Requirements](#requirements)
-1. [Development](#development)
+
 
 ## Usage
 
 > Some usage instructions
-
-## Requirements
-
-An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
-
-- Node 6.13.0
-- etc
-
+ scripts are :
+ npm run dev
+ npm run start:server
 ## Development
 
 ### Installing Dependencies
@@ -33,7 +27,6 @@ An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
 From within the root directory:
 
 ```sh
-npm install -g webpack
 npm install
 ```
 
